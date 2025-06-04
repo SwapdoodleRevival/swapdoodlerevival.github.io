@@ -6,3 +6,5 @@ relative_links:
   collections: true
 exclude:
   - README.md
+minima:
+  skin: auto
