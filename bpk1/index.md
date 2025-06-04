@@ -4,6 +4,8 @@ BPK1 is a file structure used in almost all game files, and also the letters tha
 
 A BPK1 file consists of a header (a "table of contents" if you will) and data blocks. Each data block has a name, indicating what it contains. Names can repeat, in which case the order usually matters.
 
+Integer values are stored as little-endian.
+
 | Offset | Size     | Description                    |
 | ------ | -------- | ------------------------------ |
 | 0x0    | 0x40     | [BPK1 Header](#bpk1-header)    |
@@ -41,7 +43,8 @@ Sample use with the Rust `crc` library can be seen [here](https://github.com/Swa
 
 # BPK1 Blocks
 
-- [`SHEET1`](./sheet1.md)
+- [SHEET1](./sheet1.md)
+- [COMMON1](./common1.md)
 
 # Credits
 
