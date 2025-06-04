@@ -1,4 +1,4 @@
-# SwapdoodleRevival
+# Swapdoodle Revival
 
 Hey there! We're a group that got together to study Swapdoodle, a messaging app/game from Nintendo for the 3DS.
 
