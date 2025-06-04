@@ -1,0 +1,8 @@
+title: SwapdoodleRevival
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+exclude:
+  - README.md
